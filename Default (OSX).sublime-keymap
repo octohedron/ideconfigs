@@ -1,0 +1,60 @@
+[{
+  "keys": ["ctrl+shift+up"],
+  "command": "swap_line_up"
+},
+  {
+    "keys": ["ctrl+shift+down"],
+    "command": "swap_line_down"
+  }, {
+    "keys": ["super+ctrl+l"],
+    "command": "format_javascript"
+  }, {
+    "keys": ["super+1"],
+    "command": "toggle_side_bar"
+  }, {
+    "keys": ["super+["],
+    "command": "show_panel",
+    "args": {
+      "panel": "console",
+      "toggle": true
+    }
+  },
+  {
+    "keys": ["super+shift+a"],
+    "command": "sublimelinter_lint",
+  },
+  {
+    "keys": ["super+k", "super+w"],
+    "command": "destroy_pane",
+    "args": {
+      "direction": "self"
+    }
+  },
+  {
+    "keys": ["ctrl+shift+w"],
+    "command": {
+      "toggle_setting": {
+        "setting": "word_wrap"
+      }
+    }
+  },
+  {
+    "keys": ["super+0"],
+    "command": "reset_font_size"
+  },
+  {
+    "keys": ["escape"],
+    "command": "noop",
+    "context": [
+      {
+        "key": "num_selections",
+        "operator": "not_equal",
+        "operand": 1
+      }
+    ]
+  },
+  {
+    "keys": ["super+y"],
+    "command": "redo"
+  }
+]

@@ -1,0 +1,17 @@
+{
+	"color_scheme": "Packages/Colorsublime - Themes/Neon.tmTheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_numbers": true,
+	"rulers":
+	[
+		80
+	],
+	"show_full_path": true,
+	"theme": "Solarized Space Predawn.sublime-theme",
+	"word_wrap": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": false
+}
